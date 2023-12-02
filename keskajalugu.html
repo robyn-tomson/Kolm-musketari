@@ -1,13 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-wdth" initial-scale="1.0">
   <title>Keskaja ajalugu</title>
+  <style>
+    body {
+      font-family: 'Blackletter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: url("https://github.com/robyn-tomson/Kolm-musketari/blob/main/pictures/bg-5.jpg?raw=true");
+      background-position: center;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      position: relative;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+      background-image: url("https://github.com/robyn-tomson/Kolm-musketari/blob/main/pictures/draakon-head-bg.jpg?raw=true") center center/cover no-repeat;
+      color: #fff;
+      padding: 1em;
+      text-align: left;
+      z-index: 1;
+    }
+
+    nav {
+      position: relative;
+      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+      background-image: url("https://github.com/robyn-tomson/Kolm-musketari/blob/main/pictures/draakon-head-bg.jpg?raw=true");
+      padding: 0.5em;
+      z-index: 2;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0.5em 1em;
+      margin-right: 10px;
+    }
+
+    section {
+      padding: 10px;
+      flex: 1;
+    }
+
+    footer {
+      background-image: url("https://github.com/robyn-tomson/Kolm-musketari/blob/main/pictures/draakon-head-bg.jpg?raw=true");
+      color: #fff;
+      padding: 1em;
+      text-align: center;
+      width: 100%;
+      margin-top: auto;
+    }
+
+  </style>
 </head>
 <body>
+  <header>
+    <h1>Keskaja ajalugu</h1>
+  </header>
+  <nav>
+    <a href="pealeht.html">Tagasi avalehele</a> <a href="#">Robyni leht</a> <a href="jaagup.html">Jaagupi leht</a> <a href="gregor.html">Gregori leht</a>
+  </nav>
   <h1>Keskaja ajalugu: <span class="subtitle">Müstiline vaade minevikku</span></h1>
   <p>Keskaeg jaguneb kolmeks erinevaks perioodiks: varakeskajaks (5.-11. sajand), kõrgkeskajaks (11. sajandist 13. sajandi lõpuni) ning hiliskeskajaks (14. sajandist 16. sajandi alguseni).</p>
-  <div>
-    Varakeskaeg sai alguse Lääne-Rooma riigi langusest 5. sajandil, ning kestis umbes 1000. või 1050. aastani. Varakeskaega on nimetatud ka <i>pimedaks ajastuks</i>.
-  </div>
+  <div>Varakeskaeg sai alguse Lääne-Rooma riigi langusest 5. sajandil, ning kestis umbes 1000. või 1050. aastani. Varakeskaega on nimetatud ka <i>pimedaks ajastuks</i>. Rohkem infot leiab <a href="https://et.wikipedia.org/wiki/Keskaeg">siit.</a>. <img src="https://astrablobs.blob.core.windows.net/kitcontent/77d99951-a5ef-4c52-8a34-30a12ae79272/75a538bd-db3b-4415-9add-91cb55b8dfde/Ambassadors_m.jpg" alt="drippy kutid"></div>
+  <footer>
+    <p>2023 Kolm musketäri inc.</p>
+  </footer>
 </body>
 </html>
