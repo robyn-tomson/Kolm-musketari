@@ -1,75 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-wdth" initial-scale="1.0">
-  <title>Avaleht</title>
-  <style>
-    body {
-      font-family: 'Comic Sans MS', cursive, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-image: url("https://github.com/robyn-tomson/Kolm-musketari/blob/main/pictures/bg-5.jpg?raw=true");
-      background-position: center;
-      color: #fff;
-      display: flex;
-      flex-direction: column;
-      min-height: 100vh;
-    }
-
-    header {
-      position: relative;
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-      background-image: url("https://github.com/robyn-tomson/Kolm-musketari/blob/main/pictures/draakon-head-bg.jpg?raw=true") center center/cover no-repeat;
-      color: #fff;
-      padding: 1em;
-      text-align: left;
-      z-index: 1;
-    }
-
-    nav {
-      position: relative;
-      background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
-      background-image: url("https://github.com/robyn-tomson/Kolm-musketari/blob/main/pictures/draakon-head-bg.jpg?raw=true");
-      padding: 0.5em;
-      z-index: 2;
-    }
-
-    nav a {
-      color: #fff;
-      text-decoration: none;
-      padding: 0.5em 1em;
-      margin-right: 10px;
-    }
-
-    section {
-      padding: 10px;
-      flex: 1;
-    }
-
-    footer {
-      background-image: url("https://github.com/robyn-tomson/Kolm-musketari/blob/main/pictures/draakon-head-bg.jpg?raw=true");
-      color: #fff;
-      padding: 1em;
-      text-align: center;
-      width: 100%;
-      margin-top: auto;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avaleht</title>
+    <link rel="stylesheet" href="kujund.css"> <!-- Muutsin CSS-i faili nime siin -->
 </head>
 <body>
-  <header>
-    <h1>Kolm musketäri</h1>
-  </header>
-  <nav>
-    <a href="keskajalugu.html">Keskajalugu</a><a href="robyn.html">Robyni leht</a> <a href="jaagup.html">Jaagupi leht</a> <a href="gregor.html">Gregori leht</a>
-  </nav>
-  <h1>Musketärid: <span class="subtitle">Tõde, Minevik ja Väärikus</span></h1>
-  <p>Kolm muskeetrit  Robyn, Gregor ja Jaagup kandsid auhindu uhkelt. Nende vaprus ja ustavus olid au sümboliks. Kaitseksid kuningat, oma väärikust ja kõike tähtsat kuni viimase hingetõmbeni. Nende ühine rüütelikkus sidus neid, moodustades kõige võimsama liidu.</p>
-  <img src="https://render.fineartamerica.com/images/rendered/default/print/8/6.5/break/images-medium-5/the-three-musketeers-herbert-renard.jpg" alt="3men" width="300px" height="300px">
-  <div>"Ajalugu kui lõuend, kus iga sündmus on pintslitõmme. Meie minevik loob tuleviku, kandes endas lugusid, õppetunde ja mõistatust."</div>
-  <footer>
-    <p>2023 Kolm musketäri inc.</p>
-  </footer>
+
+    <header>
+        <h1>Kolm musketäri</h1>
+    </header>
+
+    <nav>
+        <a href="keskajalugu.html">Keskajalugu</a>
+        <a href="robyn.html">Robyni leht</a>
+        <a href="jaagup.html">Jaagupi leht</a>
+        <a href="gregor.html">Gregori leht</a>
+    </nav>
+
+    <section>
+        <h2>Musketärid: Tõde, Minevik ja Väärikus</h2>
+        <p>Kolm muskeetrit Robyn, Gregor ja Jaagup kandsid auhindu uhkelt. Nende vaprus ja ustavus olid au sümboliks. Kaitseksid kuningat, oma väärikust ja kõike tähtsat kuni viimase hingetõmbeni. Nende ühine rüütelikkus sidus neid, moodustades kõige võimsama liidu.</p>
+        <img class="musketeers" src="https://render.fineartamerica.com/images/rendered/default/print/8/6.5/break/images-medium-5/the-three-musketeers-herbert-renard.jpg" alt="3men">
+        <div>"Ajalugu kui lõuend, kus iga sündmus on pintslitõmme. Meie minevik loob tuleviku, kandes endas lugusid, õppetunde ja mõistatust."</div>
+    </section>
+    
+    <footer>
+        <p>2023 Kolm musketäri inc.</p>
+    </footer>
+
 </body>
 </html>

@@ -1,0 +1,63 @@
+/* Üldine lehe stiil */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Veendu, et body täidaks terve vaatevälja */
+    background-image: url("https://github.com/robyn-tomson/Kolm-musketari/blob/main/pictures/bg-5.jpg?raw=true");
+    background-position: center;
+    color: #fff;}
+
+/* Header */
+header {
+    position: relative;
+    background-image: url("https://github.com/robyn-tomson/Kolm-musketari/blob/main/pictures/bg-5.jpg?raw=true");
+    color: #fff;
+    padding: 1em;
+    text-align: left;
+    width: 100%; /* Tee ülemine riba täisekraaniliseks */}
+
+/* Pilt */
+img {
+    width: 200px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: 10px;
+    flex: 0 0 20%;}
+
+/* Navigatsioon */
+nav {
+    position: relative;
+    background-image: url("https://github.com/robyn-tomson/Kolm-musketari/blob/main/pictures/draakon-head-bg.jpg?raw=true");
+    padding: 0.5em;}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    margin-right: 10px;}
+
+/* Sektsioon */
+section {
+    padding: 10px;
+    flex: 1;}
+
+/* Footer */
+footer {
+    background-image: url("https://github.com/robyn-tomson/Kolm-musketari/blob/main/pictures/draakon-head-bg.jpg?raw=true");
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    width: 100%;
+    margin-top: auto;}
+
+
+.picture {
+    width: 400px; 
+    height: auto;}
+
+.musketeers {
+    width: 300px;
+    height: 300px;}
